@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".movies"
+    android:background="@color/black">
+
+
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#B81616"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            tools:ignore="MissingConstraints"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:background="@color/black">
+
+                <ImageView
+                    android:id="@+id/outer_banks"
+                    android:layout_width="118dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/outer" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="150dp"
+                android:text=" "
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:background="@color/black">
+
+                <ImageView
+                    android:id="@+id/all_of_us_are_dead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/allofusaredead" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="150dp"
+
+                android:text=" "
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:background="@color/black">
+
+                <ImageView
+                    android:id="@+id/la_casa_de_papel"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+
+                    app:srcCompat="@drawable/casadepapel" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            tools:ignore="MissingConstraints"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                >
+
+                <TextView
+                    android:id="@+id/outerBanks"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:padding="7dp"
+                    android:textStyle="bold|italic"
+                    android:text="outer Banks"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="50dp"
+                android:text=" "
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="50dp">
+                <TextView
+                    android:id="@+id/allofusaredead"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:padding="0dp"
+                    android:textStyle="bold|italic"
+                    android:text="all of us are dead"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="50dp"
+
+                android:text=" "
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="50dp">
+                <TextView
+                    android:id="@+id/lacasadepapel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+
+                    android:textStyle="bold|italic"
+                    android:text="la casa de papel"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            tools:ignore="MissingConstraints"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:background="@color/black">
+
+                <ImageView
+                    android:id="@+id/peaky_blinders"
+                    android:layout_width="118dp"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/peakyblinders" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="150dp"
+                android:text=" "
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:background="@color/black">
+
+                <ImageView
+                    android:id="@+id/vinkings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/vinkings" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="150dp"
+
+                android:text=" "
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:background="@color/black">
+
+                <ImageView
+                    android:id="@+id/demon_slayer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/demon_slayer" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            tools:ignore="MissingConstraints"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                >
+                <TextView
+                    android:id="@+id/peakyblinders"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+
+                    android:textStyle="bold|italic"
+                    android:text="peaky blinders"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="50dp"
+                android:text=" "
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="50dp">
+                <TextView
+                    android:id="@+id/textvinkings"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:padding="7dp"
+                    android:textStyle="bold|italic"
+                    android:text="vikings"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="50dp"
+
+                android:text=" "
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="50dp">
+                <TextView
+                    android:id="@+id/demonslayer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold|italic"
+                    android:text=" demon slayer"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            tools:ignore="MissingConstraints"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:background="@color/black">
+
+                <ImageView
+                    android:id="@+id/parasyte"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    app:srcCompat="@drawable/parasyte" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="150dp"
+                android:text=" "
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:background="@color/black">
+
+                <ImageView
+                    android:id="@+id/dahmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/dahmer" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="150dp"
+
+                android:text=" "
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:background="@color/black">
+
+                <ImageView
+                    android:id="@+id/valkyrie_apocalypse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    app:srcCompat="@drawable/valkyrie_apocalypse" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            tools:ignore="MissingConstraints"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="50dp">
+                <TextView
+                    android:id="@+id/textparasyte"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:padding="7dp"
+                    android:textStyle="bold|italic"
+                    android:text="parasyte"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="50dp"
+                android:text=" "
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="50dp">
+                <TextView
+                    android:id="@+id/textdahmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:padding="7dp"
+                    android:textStyle="bold|italic"
+                    android:text="dahmer"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="50dp"
+
+                android:text=" "
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="50dp">
+                <TextView
+                    android:id="@+id/valkyrie"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:padding="7dp"
+                    android:textStyle="bold|italic"
+                    android:text="valkyrie"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:text="movies"
+        android:textAlignment="center"
+        android:textColor="#B81616"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="-40dp"
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="350dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014"
+        app:srcCompat="@drawable/logonewhf"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
